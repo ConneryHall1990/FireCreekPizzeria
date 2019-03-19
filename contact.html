@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<title>Contact Us</title>
+</head>
+<style>
+    .infoLayout {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    } 
+</style>
+<body>
+<h1>Contact Me</h1>
+<hr />
+<nav> 
+  <p><a href="index.html">Home</a></p>
+</nav>
+<hr />
+
+<h2>Information Request</h2>
+    <div class="infoLayout">
+    <form action="submit.html" method="POST">
+      
+      <label for="name"><b>Name:</b></label>
+      <input type="text" name="myTextInput" />
+        <br />
+        <br />
+        
+      
+      <label for="eMail"><b>Email:</b></label>  
+      <input type="text" name="myTextInput" />
+        <br />
+        <br />
+        
+       
+      <label for="phone"><b>Phone:</b></label>
+      <input type="text" name="myTextInput" />
+        <br />
+        <br />
+        
+        <b>Reason For Inquiry:</b> <select name="reason-for-inquiry"> 
+          <option value="catering">Catering</option>
+          <option value="privateParty">Private Party</option>
+          <option value="feedback">Feedback</option>
+          <option value="other">Other</option>
+        </select>
+        <br />
+        <br />
+        <b>Additional Information:</b> <br />
+        <textarea name="additionalInformation"></textarea>
+        <br />
+        
+        <b>Best Days to Contact You:</b> (Check all that apply) <br /> 
+        <input type="checkbox" name="myCourses" value="front-end-development">M 
+        <input type="checkbox" name="myCourses" value="back-end-development">T
+        <input type="checkbox" name="myCourses" value="database-design">W 
+        <input type="checkbox" name="myCourses" value="database-design">Th
+        <input type="checkbox" name="myCourses" value="database-design">F
+        
+        <br />
+        <br />
+        <b>Have you been to the restaurant?:</b> <br />
+        <input type="radio" name="answer" value="YES" /> Yes <input type="radio" name="answer" value="NO"/> No <br /> 
+        
+        <br />
+        <input type="Submit" name="Submit" value="Send Request"> 
+        
+        
+    </form>
+</div>
+</body>
+<footer>
+    <hr />
+    <p>&copy; 2323 Boulder Creek, Boulder, CO 40879</p>
+    <p>(555) 555-5555</p> 
+      
+</footer>
+    
+</html>

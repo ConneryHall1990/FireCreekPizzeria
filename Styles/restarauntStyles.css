@@ -1,0 +1,19 @@
+.footer {
+    background-color: gold;
+    color: black;
+}
+
+.header {
+    background-color: gold;
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+}
+
+.header:hover {
+    color: green;
+}
+
+.fontLg {
+    font-weight: 300;
+}
